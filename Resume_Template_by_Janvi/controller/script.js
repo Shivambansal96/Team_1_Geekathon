@@ -102,21 +102,18 @@ templateType.addEventListener('change', (e) => {
     const resumeLeft = document.getElementById('resume-left');
     const navContactEle = document.getElementById('nav-contact-ele');
     const resumeRightSideSkillsEle = document.getElementById('resume-rightSide-skills');
-    const profileImg = document.getElementById('resume-profile-img');
     if(value === "two-column"){
         resumeLeft.style.display = "block";
         navContactEle.style.display = "none";
         resumeRightSideSkillsEle.classList.replace('block', 'hidden');
         resumeHeader.classList.replace('bg-slate-100','bg-slate-700');
         resumeHeader.style.color = "white";
-        profileImg.classList.replace('hidden', 'block');
     }else if(value === "minimalist"){
         resumeLeft.style.display = "none";
         navContactEle.style.display = "flex";
         resumeRightSideSkillsEle.classList.replace('hidden', 'block');
         resumeHeader.classList.replace('bg-slate-700', 'bg-slate-100');
         resumeHeader.style.color = "#000000";
-        profileImg.classList.replace('block', 'hidden');
     }
 })
 
