@@ -22,7 +22,14 @@ const addEmployement = document.getElementById('add-employement');
 const employementTemplate = document.getElementById('employement-template');
 const experienceTag = document.getElementById('experience');
 const skillsValue = document.getElementById('skills-value');
+const hobbieValue = document.getElementById('hobbie-value');
+const qualitiesValue = document.getElementById('qualities-value');
+
 const mySkills = document.querySelectorAll('.skills-tab');
+const myHobbies = document.querySelectorAll('.hobbie-tab');
+
+const myQualities = document.querySelectorAll('.qualities-tab');
+
 const addProject = document.getElementById('add-project');
 const projectTemplate = document.getElementById('project-template');
 const projectsTag = document.getElementById('projects');
@@ -38,6 +45,9 @@ cityValue.addEventListener('keyup', updateAddress);
 summaryValue.addEventListener('keyup', updateSummary);
 addEmployement.addEventListener('click', addEmployementFn);
 skillsValue.addEventListener('input', updateSkillsArray);
+hobbieValue.addEventListener('input', updateHobbiesArray);
+qualitiesValue.addEventListener('input', updateQualitiesArray);
+
 addProject.addEventListener('click', addProjectFn);
 
 function updateHeaderColor(e){
@@ -46,7 +56,7 @@ function updateHeaderColor(e){
 }
 
 function updateHeaderTextColor(e){
-    resumeHeader.style.color = e.target.value;
+    resumeHeader.style.color = e.target.value;s
 }
 
 function updateCandidateName(e) {
@@ -129,6 +139,28 @@ function updateSkillsArray(e){
     })
 }
 
+let hobbiesArray = [];
+function updateHobbiesArray(e){
+    hobbiesArray = e.target.value.split(",");
+    // console.log(skillsArray);
+    // updateSkills();
+    const allHobbiesTabArray = Array.from(myHobbies);
+    allHobbiesTabArray.forEach((hobbieEle)=>{
+        updateHobbies(hobbieEle);
+    })
+}
+
+let qualitiesArray = [];
+function updateQualitiesArray(e){
+    qualitiesArray = e.target.value.split(",");
+    // console.log(skillsArray);
+    // updateSkills();
+    const allSkillTabArray = Array.from(myQualities);
+    allSkillTabArray.forEach((skillEle)=>{
+        updateQualities(skillEle);
+    })
+}
+
 function updateSkills(skillEle){
     skillEle.innerHTML = "";
     if(skillsArray.length > 0){
@@ -144,6 +176,35 @@ function updateSkills(skillEle){
     }
 }
 
+function updateHobbies(hobbieEle){
+    hobbieEle.innerHTML = "";
+    if(hobbiesArray.length > 0){
+        hobbiesArray.forEach((ele)=>{
+            const trimmedEle = ele.trim();
+            if(trimmedEle !== ""){
+                const div = document.createElement('div');
+                div.classList.add("bg-gray-800", "text-[0.8rem]", "text-white", "w-max", "px-2", "py-1", "rounded");
+                div.innerText = trimmedEle;
+                hobbieEle.append(div);
+            }
+        })
+    }
+}
+
+function updateQualities(skillEle){
+    skillEle.innerHTML = "";
+    if(qualitiesArray.length > 0){
+        qualitiesArray.forEach((ele)=>{
+            const trimmedEle = ele.trim();
+            if(trimmedEle !== ""){
+                const div = document.createElement('div');
+                div.classList.add("bg-gray-800", "text-[0.8rem]", "text-white", "w-max", "px-2", "py-1", "rounded");
+                div.innerText = trimmedEle;
+                skillEle.append(div);
+            }
+        })
+    }
+}
 // Add Employement Function
 let expId = 1;
 function addEmployementFn(){
