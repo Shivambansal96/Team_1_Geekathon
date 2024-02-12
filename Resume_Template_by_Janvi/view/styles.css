@@ -1,0 +1,133 @@
+/* Global Styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif; /* Change the font family as needed */
+}
+
+/* Top Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333; /* Change the background color */
+  color: #fff; /* Change the text color */
+}
+
+nav img {
+  height: 50px;
+}
+
+/* Download Button */
+#downloadBtn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  background-color: #0000ff; /* Change the background color */
+  color: #fff; /* Change the text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#downloadBtn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Template Left Container */
+#template-left-container {
+  max-width: 25%;
+  padding-bottom: 10px;
+  background-color: #f4f4f4; /* Change the background color */
+  overflow-y: scroll;
+}
+
+/* Template Right Container Two Column */
+#template-right-container-twoColumn {
+  width: 75%;
+  background-color: #f4f4f4; /* Change the background color */
+  overflow-y: scroll;
+}
+
+/* Final Resume Header */
+#resume-header {
+  height: 160px;
+  background-color: #374151; /* Change the background color */
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#resume-header h1 {
+  font-size: 2rem;
+}
+
+#resume-header p {
+  font-size: 1.2rem;
+}
+
+/* Resume Profile Image */
+#resume-profile-img {
+  width: 130px;
+  height: 130px;
+  background-color: #f4f4f4; /* Change the background color */
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+}
+
+#profile-picture-input {
+  display: none;
+}
+
+/* Final Resume Left Container */
+#resume-left {
+  width: 38%;
+  background-color: #ddd; /* Change the background color */
+  padding: 0 20px;
+}
+
+/* Final Resume Right Container */
+#resume-right-container-twoColumn .bg-gray-300 {
+  background-color: #ddd; /* Change the background color */
+}
+
+/* Final Summary */
+#final-summary {
+  margin-bottom: 20px;
+}
+
+/* Skills Tab */
+.skills-tab {
+  margin-bottom: 20px;
+}
+
+.skills-tab .bg-gray-800 {
+  background-color: #333; /* Change the background color */
+  color: #fff; /* Change the text color */
+  padding: 2px 5px;
+  border-radius: 3px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+/* Contact Tab */
+.contact-tab .flex {
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.contact-tab .fa-solid {
+  color: #243a60; /* Change the icon color */
+  margin-right: 5px;
+}
+
+/* Professional Experience, Projects, Education */
+#experience, #projects, #education-data {
+  margin-bottom: 20px;
+}

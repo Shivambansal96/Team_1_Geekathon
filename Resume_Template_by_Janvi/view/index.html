@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src="../controller/script.js"></script>
+    <title>Resume Templates</title>
+</head>
+<body>
+    <div class="h-screen w-screen overflow-hidden">
+        <main class="flex pt-2 h-full">
+            <!-- main Left container  -->
+            <div id="template-right-container-twoColumn" class="w-full bg-green-200 overflow-y-scroll">
+                <div id="resume-header" class="text-white h-[160px] bg-green-700 px-3 flex items-center justify-between">
+                    <div class="">
+                        <h1 id="final-fullName" class="text-[2rem]">Janvi Shah</h1>
+                        <p id="final-jobTitle" class="text-[1.2rem]">Full Stack Developer</p>
+                    </div>
+                    <!-- nav contact information -->
+                    <div id="nav-contact-ele" class="flex flex-col gap-2 hidden">
+                        <div class="flex items-center h-8">
+                            <i class="fa-solid fa-phone fa-lg" style="color: #f4f4f4;"></i>
+                            <div id="final-phone" class="phone-number ml-2 mb-1">9999988888</div>
+                        </div>
+                        <div class="flex items-center h-8">
+                            <i class="fa-solid fa-envelope fa-lg" style="color: #f4f4f4;"></i>
+                            <div id="final-email" class="user-email ml-2 mb-1">resumetempleate@gmail.com</div>
+                        </div>
+                        <div class="flex items-center h-8">
+                            <i class="fa-solid fa-location-dot fa-lg" style="color: #f4f4f4;"></i>
+                            <div id="final-address" class="user-address ml-2 mb-1">Gujarat, India</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-max min-h-[970px] bg-blue-500">
+                    <!-- final resume left container  -->
+                    <div id="resume-left" class="w-[38%] bg-blue-500 px-3 pb-10">
+                        
+            
+                        <p class="border-b border-gray-500 text-[1.1rem] font-semibold uppercase my-3">contact</p>
+                        <div id="contact" class="contact-tab flex flex-col gap-2">
+                            <div class="flex items-center h-8">
+                                <i class="fa-solid fa-phone fa-lg" style="color: #f4f4f4;"></i>
+                                <div class="phone-number ml-2 mb-1">9999988888</div>
+                            </div>
+                            <div class="flex items-center h-8">
+                                <i class="fa-solid fa-envelope fa-lg" style="color: #f4f4f4;"></i>
+                                <div class="user-email ml-2 mb-1">resumetempleate@gmail.com</div>
+                            </div>
+                            <div class="flex items-center h-8">
+                                <i class="fa-solid fa-location-dot fa-lg" style="color: #f4f4f4;"></i>
+                                <div class="user-address ml-2 mb-1">Gujarat, India</div>
+                            </div>
+                        </div>
+                        <p class="border-b border-gray-500 text-[1.1rem] font-semibold uppercase my-3">Skills</p>
+            
+                        <div class="skills-tab flex gap-1 flex-wrap">
+                            <div class="bg-gray-800 text-[0.8rem] text-white w-max px-2 py-1 rounded">HTML</div>
+                            <div class="bg-gray-800 text-[0.8rem] text-white w-max px-2 py-1 rounded">CSS</div>
+                            <div class="bg-gray-800 text-[0.8rem] text-white w-max px-2 py-1 rounded">JavaScript</div>
+                            <div class="bg-gray-800 text-[0.8rem] text-white w-max px-2 py-1 rounded">React</div>
+                            <div class="bg-gray-800 text-[0.8rem] text-white w-max px-2 py-1 rounded">Node Js</div>
+                            <div class="bg-gray-800 text-[0.8rem] text-white w-max px-2 py-1 rounded">Mongo DB</div>
+                            <div class="bg-gray-800 text-[0.8rem] text-white w-max px-2 py-1 rounded">Dev Ops</div>
+                        </div>
+
+                        <p class="border-b border-gray-500 text-[1.1rem] font-semibold uppercase my-3">Hobbies</p>
+            
+                        <div class="skills-tab flex gap-1 flex-wrap">
+                            <div class="bg-gray-800 text-[0.8rem] text-white w-max px-2 py-1 ">Cricket</div>
+                            <div class="bg-gray-800 text-[0.8rem] text-white w-max px-2 py-1 ">Chess</div>
+                            <div class="bg-gray-800 text-[0.8rem] text-white w-max px-2 py-1 ">Coding</div>
+                            <div class="bg-gray-800 text-[0.8rem] text-white w-max px-2 py-1 ">Learning</div>
+                            <div class="bg-gray-800 text-[0.8rem] text-white w-max px-2 py-1 ">Playing Music</div>
+                        </div>
+
+                        <p class="border-b border-gray-500 text-[1.1rem] font-semibold uppercase my-3">Qualities</p>
+            
+                        <div class="skills-tab flex gap-1 flex-wrap">
+                            <div class="bg-gray-800 text-[0.8rem] text-white w-max px-2 py-1 rounded">Honest</div>
+                            <div class="bg-gray-800 text-[0.8rem] text-white w-max px-2 py-1 rounded">Efficient</div>
+                            <div class="bg-gray-800 text-[0.8rem] text-white w-max px-2 py-1 rounded">Punctual</div>
+                            <div class="bg-gray-800 text-[0.8rem] text-white w-max px-2 py-1 rounded">Ethical and loyal</div>
+                            <div class="bg-gray-800 text-[0.8rem] text-white w-max px-2 py-1 rounded">Diligent and organized</div>
+                        </div>
+                    </div>
+                    <!-- Final Resume right container  -->
+                    <div class="w-full bg-white px-3 pb-20">
+                      
+                        <!-- skills Minimlaist  -->
+                        <div id="resume-rightSide-skills" class="hidden">
+                            <p class="border-b border-blue-500 text-[1.1rem] font-semibold uppercase my-3">Skills</p>
+                            <div class="skills-tab flex gap-1 flex-wrap">
+                                <div class="bg-gray-800 text-[0.8rem] text-white w-max px-2 py-1 rounded">HTML</div>
+                                <div class="bg-gray-800 text-[0.8rem] text-white w-max px-2 py-1 rounded">CSS</div>
+                                <div class="bg-gray-800 text-[0.8rem] text-white w-max px-2 py-1 rounded">JavaScript</div>
+                                <div class="bg-gray-800 text-[0.8rem] text-white w-max px-2 py-1 rounded">React</div>
+                                <div class="bg-gray-800 text-[0.8rem] text-white w-max px-2 py-1 rounded">Node Js</div>
+                                <div class="bg-gray-800 text-[0.8rem] text-white w-max px-2 py-1 rounded">Mongo DB</div>
+                                <div class="bg-gray-800 text-[0.8rem] text-white w-max px-2 py-1 rounded">Dev Ops</div>
+                            </div>
+                        </div>
+                        <p class="border-b border-gray-500 text-[1.1rem] font-semibold uppercase my-3">EDUCATION</p>
+                        <div id="education-data"></div>
+                        <p class="border-b border-gray-500 text-[1.1rem] font-semibold uppercase my-3">PROFESSIONAL EXPERIENCE</p>
+                        <div id="experience"></div>
+                        <p class="border-b border-gray-500 text-[1.1rem] font-semibold uppercase my-3">PROJECTS</p>
+                        <div id="projects"></div>
+                        
+                        <p class="border-b border-gray-500 text-[1.1rem] font-semibold uppercase my-3">summary</p>
+                        <div id="final-summary">
+                            A full-stack developer is an IT professional who develops a software application's client and server side. They apply a wide range of coding skills and help other programmers solve problems. Full-stack developers also test and debug software and optimize the code.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="template-left-container" class="max-w-[25%] pb-10 bg-slate-200 overflow-scroll" >
+                <form action="" class="flex flex-col p-3 gap-[10px]">
+                    <div class="flex flex-col gap-[10px]">
+                        <label for="template-type" class="text-[1.3rem]">Template Type</label>
+                        <select name="template-type" id="template-type" class="py-3 rounded text-lg text-gray-700 outline-none cursor-pointer">
+                            <option value="two-column" class="">Two-column</option>
+                            <option value="minimalist">Minimalist</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="font-type" class="text-[1.3rem]">Font Type</label>
+                        <br>
+                        <select name="font-type" id="font-type" class="py-3 rounded text-lg text-gray-700 outline-none cursor-pointer">
+                            <option value="arial">Arial</option>
+                            <option value="times-new-roman">Times New Roman</option>
+                            <option value="calibri">Calibri</option>
+                            <!-- Add more font options as needed -->
+                        </select>
+                    </div>
+                    <!-- <hr class="bg-gray-400 h-[1px] w-[90%] mx-auto"> -->
+                    <div>
+                        <h3 class="text-[1.3rem] my-2">Header Color</h3>
+                        <input id="header-color" type="color" value="#0000FF">
+                    </div>
+                    <div>
+                        <h3 class="text-[1.3rem] my-2">Header-Text Color</h3>
+                        <input id="header-text-color" type="color" value="#abcdef">
+                    </div>
+                    <div>
+                        <h3 class="text-[1.3rem] my-2">Personal Details</h3>
+                        <input id="fullname" class="w-full my-2 p-2 rounded" type="text" placeholder="Full Name">
+                        <input id="email-value" class="w-full my-2 p-2 rounded" type="email" placeholder="Email-ID">
+                        <input id="phoneNumber-value" class="w-full my-2 p-2 rounded" type="number" placeholder="Phone">
+                        <input id="city-value" class="w-full my-2 p-2 rounded" type="text" placeholder="City, Country">
+                    </div>
+                    <div>
+                        <h3 class="text-[1.3rem] my-2">Professional Details</h3>
+                        <input id="job-title-value" class="w-full my-2 p-2 rounded" type="text" placeholder="Wanted Job Title">
+                        <textarea class="w-full my-2 p-2 rounded" name="" id="summary-value" cols="30" rows="5" placeholder="Professional Summary"></textarea>
+                        <input id="skills-value" class="w-full my-2 p-2 rounded" type="text" placeholder="Skills (Use comma, to seperate each skills)">
+                    </div>
+                    <!-- Add Employement Tab  -->
+                    <div id="add-employement" class="w-full my-2 py-2 bg-green-400 hover:bg-green-500 text-white text-lg rounded text-center cursor-pointer">Add Employement</div>
+                    <div id="employement-template"></div>
+                    <!-- Add Project Tab  -->
+                    <div id="add-project" class="w-full my-2 py-2 bg-green-400 hover:bg-green-500 text-white text-lg rounded text-center cursor-pointer">Add Project</div>
+                    <div id="project-template"></div>
+                    <div>
+                        <h3 class="text-[1.3rem] my-2">Education Background</h3>
+                        <!-- Add Education Tab  -->
+                        <div id="add-education-inputs" class="w-full my-2 py-2 bg-green-400 hover:bg-green-500 text-white text-lg rounded text-center cursor-pointer">Add Education</div>
+                        <div id="education-inputs-container"></div>
+                    </div>
+                    <div>
+                        <button id="downloadBtn" href="" class="animate-pulse hover:animate-none hover:scale-105 hover:shadow-lg flex items-center gap-[10px] px-5 py-2 bg-blue-400 hover:bg-blue-500 text-white text-lg rounded-lg">
+                        <i class="fa-solid fa-download fa-md" style="color: #ffffff;"></i>
+                        <span>Download PDF</span>
+                    </button>
+                    </div>
+                    
+                </form>
+            </div>
+           
+            <!-- Main Right container Two Column -->
+
+            <!-- minmialist template  -->
+        </main>
+        
+    </div>
+</body>
+</html>
