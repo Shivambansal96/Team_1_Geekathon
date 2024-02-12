@@ -111,8 +111,10 @@ document.addEventListener("DOMContentLoaded", function () {
       noProductsMsg.classList.add("hidden");
       totalPrice.textContent = `${totalPriceVal.toFixed(2)} INR`;
       cartTotal.classList.remove("hidden");
+      checkoutButton.classList.remove("hidden");
     } else {
       noProductsMsg.classList.remove("hidden");
+      checkoutButton.classList.add("hidden");
       cartTotal.classList.add("hidden");
     }
   }
@@ -152,7 +154,7 @@ document.addEventListener("DOMContentLoaded", function () {
       key: "rzp_test_BkPuVhFTbH4Y03", 
       amount: calculateTotalPrice() * 100, 
       currency: "INR",
-      name: "SS Shop",
+      name: "Sourasish's Shop",
       description: "Geekathon",
       image: "./assets/logo.png", 
       handler: function (response) {
@@ -168,7 +170,7 @@ document.addEventListener("DOMContentLoaded", function () {
         address: "note value",
       },
       theme: {
-        color: "#2c88b0",
+        color: "#000000",
       },
     };
     var propay = new Razorpay(options);

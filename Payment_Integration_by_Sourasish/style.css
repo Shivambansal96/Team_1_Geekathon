@@ -262,7 +262,11 @@ h2.main1 {
   font-family: "Bebas Neue", sans-serif;
   display: flex;
   align-items: center;
-  padding-bottom: 1vh;
+  justify-content: center;
+  text-decoration: underline;
+  padding-bottom: 5vh;
+  font-size: 2rem;
+  padding-top: 3vh;
 }
 
 #product-1-count {
@@ -288,12 +292,13 @@ ul {
 li {
   margin-bottom: 10px;
   margin-bottom: 9px;
+  font-size: 1.2rem;
   align-items: center;
+  border-bottom: 1px solid;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  justify-content: space-around;
   display: flex;
-  padding: 15px;
+  padding: 11px 15px;
   /* margin-top: 10px; */
 }
 
@@ -321,28 +326,40 @@ button {
   align-items: center;
   justify-content: space-around;
   display: flex;
+  gap: 1rem;
   padding: 15px;
+}
+
+.cart-total p{
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.cart-total span.totalPrice{
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 
 .hidden {
   display: none;
 }
 
-button#checkoutButton {
+/* button#checkoutButton {
   -webkit-appearance: none;
   -moz-appearance: none;
-  appearance: none;
   border: 0;
-  display: flex;
   align-items: center;
   padding: 16px 20px 16px 15px;
-  height: 33px;
+  height: 40px;
   position: relative;
   font-family: inherit;
-  font-size: 1em;
+  font-size: 24px;
   line-height: 1em;
+  justify-content: center;
   font-weight: 500;
-  background-color: black;
+  max-height: 44px;
+  padding: 2vh 0;
+  width: 100%;
   font-family: "Bebas Neue", sans-serif;
   color: white;
   cursor: pointer;
@@ -357,12 +374,11 @@ button#checkoutButton {
   &:hover,
   &:active {
     background-color: #eee;
-    color: black;
   }
-}
+} */
 
-.shopping-cart{
-    border: 1px solid black;
+.shopping-cart {
+  border: 1px solid black;
 }
 
 .product-image {
@@ -375,3 +391,70 @@ button#checkoutButton {
   display: inline-block; /* Ensure the div doesn't take full width */
 }
 
+.image2{
+  height: 42px;
+}
+
+
+.uiverse {
+  position: relative;
+  background: #ffffff;
+  color: #000;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 150px;
+  height: 69px;
+  font-size: 17px;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background: #ffffff;
+  color: #ffffff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background: #ffffff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.uiverse:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+svg:hover span,
+svg:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.uiverse:hover .tooltip,
+.uiverse:hover .tooltip::before {
+  background: linear-gradient(320deg, rgb(3, 77, 146), rgb(0, 60, 255));
+  color: #ffffff;
+}
