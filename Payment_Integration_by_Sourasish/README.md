@@ -28,3 +28,7 @@ This project is a simple shopping cart application built using HTML, CSS, and Ja
 1. Clone the repository to your local machine.
 2. Open the `index.html` file in a web browser.
 3. Browse through the list of products, add them to your cart, and proceed to checkout.
+
+## Hosted Link
+
+The project is hosted live at [Payment Integration](https://therk420.github.io/Payment-Integration/).
