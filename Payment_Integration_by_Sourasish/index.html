@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://kit.fontawesome.com/95a8b63030.js" crossorigin="anonymous"></script>
+    <title>Shopping Cart</title>
+  </head>
+  <body>
+    <div class="topper">
+      <p>ENJOY FREE SHIPPING ON ORDERS OVER 120 INR AND HASSLE FREE RETURNS WITHIN 60 DAYS!</p>
+    </div>
+    <div class="container">
+      <header class="site-header">
+          <div class="header__content--flow">
+              <section class="header-content--left">
+                <nav class="header-nav" role="navigation">
+                  <ul class="nav__list" aria-expanded="false">
+                      <li class="list-item">
+                          <a class="nav__link" href="#">MEN</a>
+                      </li>
+                      <li class="list-item">
+                          <a class="nav__link" href="#">WOMEN</a>
+                      </li>
+                      <li class="list-item">
+                          <a class="nav__link" href="#">KIDS</a>
+                      </li>
+                      <li class="list-item">
+                          <a class="nav__link" href="#">ACCESSORIES</a>
+                      </li>
+                  </ul>
+              </nav>
+                  <button class="nav-toggle">
+                      <span class="toggle--icon"></span>
+                  </button>
+              </section>
+              <a href="#" class="brand-logo">
+                <img class="logoimg" src="./assets/logo.png" alt="">
+                <!-- <span class="logo-text">SS SHOPS</span> -->
+            </a>
+              <section class="header-content--right"> 
+                <nav class="header-nav" role="navigation">
+                  <ul class="nav__list" aria-expanded="false">
+                      <li class="list-item right">
+                          <a class="nav__link" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                      </li>
+                      <li class="list-item right">
+                          <a class="nav__link" href="#"><i class="fa-sharp fa-solid fa-bag-shopping"></i></a>
+                      </li>
+                      <li class="list-item right">
+                          <a class="nav__link" href="#"><i class="fa-regular fa-envelope"></i></a>
+                      </li>
+                      <li class="list-item right">
+                          <a class="nav__link" href="#">INR <i class="fa-solid fa-angle-down"></i></a>
+                      </li>
+                      <li class="list-item right">
+                        <a class="nav__link" href="#"><i class="fa-sharp fa-solid fa-bars"></i></a>
+                    </li>
+                  </ul>
+              </nav>
+              </section>
+          </div>
+      </header>
+  </div>
+  <span class="title">
+    <h1 class="header">
+      SHOPPING CART
+    </h1>
+    <hr>
+  </span>
+  <div class="container2">
+    <div class="product-list" id="productList">
+      <!-- <h2 class="main1">Products</h2> -->
+      <ul></ul>
+    </div>
+    <div class="shopping-cart" id="shoppingCart">
+      <h2 class="main1">ORDER SUMMARY</h2>
+      <ul id="cartItems"></ul>
+      <p class="cart-total" id="cartTotal">
+        Total Price: <span id="totalPrice">0.00 INR</span>
+        <button id="checkoutButton">Checkout</button>
+      </p>
+      <p class="no-products-msg hidden" id="noProductsMsg">
+        No products added to cart
+      </p>
+    </div>
+  </div>
+  <hr>
+    <script src="./index.js"></script>
+  </body>
+</html>
