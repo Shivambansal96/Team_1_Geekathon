@@ -2,7 +2,7 @@
 
 This project is a web-based typing speed test that allows users to improve their typing skills by typing randomly generated paragraphs within a specified time limit. The project provides real-time feedback on typing accuracy, words per minute (WPM), characters per minute (CPM), and mistakes made during the typing session.
 
-## Hosted Link
+## Hosted Link- https://uddeshpujari1199.github.io/Typing-Speed-APK/
 
 
 ## Project Working
