@@ -36,3 +36,12 @@ The project is hosted live at [Payment Integration](https://therk420.github.io/P
 ## Project Display
 
 ![Homepage Screenshot](https://cdn.discordapp.com/attachments/703917299123617792/1206872164318449674/ss.PNG?ex=65dd964a&is=65cb214a&hm=f7ae36daeeb418778b74d2c3854ece76dcf64d79d17a8becf5a147c46711880e&)
+
+## Developed By
+
+Sourasish Sengupta
+
+## Connect with me
+
+[LinkedIn](https://www.linkedin.com/in/sourasish-sengupta-159144179/)
+[GitHub](https://github.com/TheRK420)
