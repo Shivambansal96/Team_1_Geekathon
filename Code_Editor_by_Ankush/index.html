@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Code Editors</title>
+	
+	<link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d846ac8a58.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	
+	<section class="container">
+		<h1>Edit code with me 🧑‍💻</h1>
+
+		<div class="editor split"> 
+			<!-- code html, css, javascript  -->
+			<div class="left">
+				<label for=""><i class="fa-brands fa-html5"></i>HTML</label>
+				<textarea onkeyup="run()" spellcheck="false" name="" id="html-code" placeholder="Type HTML code here"></textarea>
+
+				<label for=""><i class="fa-brands fa-css3-alt"></i>CSS</label>
+				<textarea onkeyup="run()" spellcheck="false" name="" id="css-code" placeholder="Type CSS code here"></textarea>
+
+				<label for=""></i><i class="fa-brands fa-js"></i>JavaScript</label>
+				<textarea onkeyup="run()" spellcheck="false" name="" id="js-code" placeholder="Type JavaScript code here"></textarea>
+
+			</div>
+			 
+			<!-- output  -->
+			<div class="right split">
+            <label for=""><i class="fa-solid fa-play"></i>Output</label>
+			<iframe id="output"></iframe>
+			</div>
+		</div>
+	</section>
+
+	
+
+	<script src="script.js"></script>
+</body>
+</html> 
+
+
+
+
+
