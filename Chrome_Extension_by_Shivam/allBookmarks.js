@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 const linkCell = row.insertCell(3);
                 const actionCell = row.insertCell(4);
 
-                videoCell.textContent = bookmark.title || "Ik Vaari";     
+                videoCell.textContent = bookmark.title || "Youtube Video";     
                 nameCell.textContent = bookmark.name;
                 descCell.textContent = bookmark.desc;
                 linkCell.innerHTML = `<a href="https://www.youtube.com/watch?v=${videoId}&t=${Math.floor(bookmark.time)}s" target="_blank" style="text-decoration: none">Open Video</a>`;

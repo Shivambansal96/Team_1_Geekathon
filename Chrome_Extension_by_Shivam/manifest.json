@@ -31,7 +31,7 @@
         "32": "assets/banner.png"
       },
       "default_title": "My YT Bookmarks",
-      "default_popup": "popup.html"
+      "default_popup": "index.html"
     },
     "manifest_version": 3
   }
