@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: navy;
+    text-decoration-line: underline;
+    text-decoration-color: black;
+}
+
+#All-Bookmarks-Container {
+    /* border: solid 2px red; */
+    display: flex;
+    /* gap: 40px; */
+    width: 58.5%;
+    /* padding-left: 50px; */
+    align-items: center;
+
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+}
+
+#bookmarks-table {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    height: fit-content;
+    width: fit-content;
+
+    /* border: solid 2px red;     */
+
+}
+
+#table-header {
+    border: solid 2px navy;
+    height: 75px;
+    display: flex;
+    align-items: center;
+}
+
+
+tr {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    /* width: 214%; */
+    width: 150%;
+
+    /* border: solid 2px black; */
+    /* box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; */
+}
+
+td {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: solid 2px red; */
+    width: 100%;
+}
+
+
+th {
+    width: 250%;
+    /* border: solid 2px navy; */
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    font-weight: 200;
+
+}
+
+tbody {
+    /* border: solid 2px cyan; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 25px;
+    margin-bottom: 20px;
+
+}
+
+

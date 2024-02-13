@@ -1,0 +1,105 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+#Bookmarks-container {
+/* background-color: black; */
+  min-width: 300px;
+  color: #314d3e;
+  display: flex;
+  flex-direction: column;
+  /* background-image: linear-gradient(90deg, #d0edfb 50%,   #cefdde 10%); */
+  background: linear-gradient(90deg, rgba(119,210,255,1) 0%, rgba(232,246,253,1) 50%, rgba(168,235,191,1) 100%);
+  /* background-color: #d0edfb; */
+  /* background-image: linear-gradient(120deg, #8fd3f4 50%,  #84fab0 10%); */
+
+
+  /* background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(252,176,69,1) 100%); */
+
+  gap: 10px;
+
+  /* border: solid 2px red; */
+}
+
+#title {
+  font-size: 20px;
+  padding-top: 10px;
+  text-decoration-line: underline;
+  text-decoration-thickness: 3px;
+  /* text-decoration-color: rgba(0, 0, 255, 1); */
+  text-decoration-color: black;
+
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  /* background: rgb(131,58,180); */
+}
+
+.bookmarks {
+  padding: 10px;
+  /* border: solid 2px red; */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.bookmark {
+  display: flex;  
+  border: solid 1px black;
+
+
+  /* /* border-bottom-color: #00254d; */
+  /* border-bottom-width: 1px; */
+  /* border-bottom-style: solid; */
+  border-radius: 0.8rem;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  background-image: linear-gradient(120deg, #84fab0 50%, #8fd3f4  19%);
+  /* background-image: linear-gradient(120deg, #e8f6fd 50%,   #e7feef 10%); */
+  /* background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(252,176,69,1) 100%); */
+
+}
+
+.bookmark:hover {
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  cursor: pointer ;
+}
+
+.bookmark-controls {
+  flex: auto;
+  text-align: right;
+  /* border: solid 2px red; */
+}
+
+.bookmark-controls img {
+  /* border: solid 2px red; */
+  box-shadow: rgba(50, 50, 93, 0.75) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+
+  padding: 0 5px;
+  /* margin: 0 4px; */
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  
+}
+
+#view-bookmark {
+  /* border: solid 2px red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+#view-bookmark a {
+  text-decoration: none;
+  font-size: 20px;
+  font-style: italic;
+  color: red;
+}
+
+
+
