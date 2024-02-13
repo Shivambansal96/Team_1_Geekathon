@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #e1b382;
+}
+
+.wrapper{
+    width: 770px;
+    padding: 35px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.wrapper .input-field{
+    z-index: -999;
+    position: absolute;
+    opacity: 0;
+}
+.wrapper .contant-box{
+    padding: 13px 20px 0;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+.contant-box .typing-text{
+    max-height: 255px;
+    overflow-y: auto;
+}
+.typing-text::-webkit-scrollbar{
+    width: 0;
+}
+.typing-text p{
+    font-size: 21px;
+    text-align: justify;
+    letter-spacing: 1px;
+    word-break: break-all;
+}
+.typing-text p span{
+    position: relative;
+}
+.typing-text p span.correct{
+    color: green;
+}
+.typing-text p span.incorrect{
+    color: red;
+    background-color: rgb(234, 106, 106);
+    outline: 1px solid #fff;
+    border-radius: 4px;
+}
+.typing-text p span.active{
+    color:#17a2b8
+}
+.typing-text p span.active::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #17a2b8;
+    animation: blink 1s ease-in-out infinite;
+}
+
+@keyframes blink {
+    50%{
+        opacity: 1;
+    }
+}
+.contant-box .content{
+    display: flex;
+    margin-top: 17px;
+    padding: 12px 0;
+    align-items: center;
+    border-top: 1px solid #ccc;
+    justify-content: space-between;
+}
+.content button{
+    border: none;
+    outline: none;
+    width: 105px;
+    background-color: #2d545e;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 8px 0;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.content button:active{
+    transform: scale(0.97);
+}
+.content .result-details{
+    display: flex;
+    width: calc(100% - 140px);
+    justify-content: space-between;
+}
+.result-details li{
+    height: 22px;
+    display: flex;
+    list-style: none;
+}
+.result-details li:not(:first-child){
+    border-left: 1px solid #ccc;
+    padding-left: 22px;
+}
+.result-details li p{
+    font-size: 19px;
+}
+.result-details li span{
+    display: block;
+    font-size: 20px;
+    margin-left: 10px;
+}
