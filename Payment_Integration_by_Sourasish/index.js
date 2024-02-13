@@ -16,6 +16,41 @@ container.addEventListener("click", (e) => {
     }
 });
 
+// JavaScript to handle currency change
+const currencyDropdown = document.querySelector('.dropdown-content');
+const currencyButtons = currencyDropdown.querySelectorAll('a');
+
+currencyButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        const selectedCurrency = button.getAttribute('data-currency');
+        updateCurrency(selectedCurrency);
+    });
+});
+
+function updateCurrency(currency) {
+  // Define exchange rates or conversion logic for different currencies
+  const exchangeRates = {
+      'INR': 1,  // 1 INR = 1
+      'USD': 0.014,  // Example exchange rate, replace with actual rates
+      'GBP': 0.011,
+      'EUR': 0.012
+  };
+
+  // Get the base currency (INR) amount from the amount element
+  const baseCurrencyAmounts = document.querySelectorAll('.base-currency-amount'); // Assuming amount elements have a class 'base-currency-amount'
+  baseCurrencyAmounts.forEach(amount => {
+      const baseAmount = parseFloat(amount.textContent.trim()); // Get the current amount value as a floating-point number
+
+      // Convert the amount to the selected currency
+      const convertedAmount = baseAmount * exchangeRates[currency];
+
+      // Update the text content of the amount element with the converted amount
+      amount.textContent = convertedAmount.toFixed(2); // Assuming you want to display the amount with 2 decimal places
+  });
+}
+
+
+
 document.addEventListener("DOMContentLoaded", function () {
   const products = [
     { id: 1, name: "SHADOWTECH ECLIPSE SNEAKERS", price: 2500 },

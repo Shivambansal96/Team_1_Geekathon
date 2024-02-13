@@ -1,8 +1,12 @@
-# Shopping Cart Project
+# Shopping Cart with Razorpay Payment Integration Project
 
 This project is a simple shopping cart application built using HTML, CSS, and JavaScript. It allows users to browse through a list of products, add them to their cart, and proceed to checkout.
 
 ## Project Working
+
+### Hosted Link
+
+The project is hosted live at [Payment Integration](https://therk420.github.io/Payment-Integration/).
 
 ### Features:
 - Browse through a list of products.
@@ -29,6 +33,6 @@ This project is a simple shopping cart application built using HTML, CSS, and Ja
 2. Open the `index.html` file in a web browser.
 3. Browse through the list of products, add them to your cart, and proceed to checkout.
 
-## Hosted Link
+## Project Display
 
-The project is hosted live at [Payment Integration](https://therk420.github.io/Payment-Integration/).
+![Homepage Screenshot](https://cdn.discordapp.com/attachments/703917299123617792/1206872164318449674/ss.PNG?ex=65dd964a&is=65cb214a&hm=f7ae36daeeb418778b74d2c3854ece76dcf64d79d17a8becf5a147c46711880e&)
