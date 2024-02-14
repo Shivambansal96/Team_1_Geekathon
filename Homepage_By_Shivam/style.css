@@ -1,21 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Protest+Revolution&family=Protest+Riot&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+body {
+  /* background-color: #80D0C7; */
+  background-color: black;
+}
 
 #heading-container {
-  /* border: solid 2px black; */
+  /* border: solid 2px red; */
   /* border-bottom: solid 5px cyan; */
   text-decoration-line: underline;
   text-decoration-color: orange;
+  text-decoration-style: dashed;
   text-decoration-thickness: 5px;
   margin-top: 5%;
 }
 
 #heading {
   text-align: center;
+  font-size: 60px;
+  font-weight: 300;
+  font-family: "Protest Riot", sans-serif;
+  color: #0093E9;
+}
+
+img {
+  image-rendering: optimizeQuality;
 }
 
 #card-container {
@@ -25,7 +40,8 @@
   justify-content: center;
   align-content: center;
   flex-wrap: wrap;
-  gap: 5%;    /* give gaps  between cards. */
+  gap: 5%;    
+  /* give gaps  between cards. */
   padding: 5%;
 }
 
@@ -36,14 +52,22 @@
   width: 450px;
   height: 300px;
   perspective: 1000px;
-  margin-bottom: 20px;
+  margin-bottom: 8%;
+  border-radius: 20px;
+  /* border: solid 5px red; */
 
 }
 
+.title-div {
+  color: coral;
+}
+
 .title {
-  font-size: 1.5em;
-  font-weight: 900;
+  font-size: 3em;
+  font-weight: 700;
   text-align: center;
+  font-family: "Dancing Script", cursive;
+
   margin: 0;
 }
 
@@ -54,6 +78,7 @@
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
+  /* overflow: hidden; */
   cursor: pointer;
 }
 
@@ -79,10 +104,10 @@
   font-weight: 700;
 }
 
-.frontSide,
+/* .frontSide,
 .frontSide::before {
-  background: linear-gradient(43deg, rgb(65, 88, 208) 0%, rgb(200, 80, 192) 46%, rgb(255, 204, 112) 100%);
-}
+  background: linear-gradient(43deg, rgb(65, 88, 208) 0%, rgb(200, 80, 192) 6%, rgb(255, 204, 112) 100%);
+} */
 
 .backSide,
 .backSide::before {
@@ -121,3 +146,70 @@
     opacity: 0.3;
   }
 }
+
+.frontSide > img {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+
+  overflow: hidden;
+}
+
+.backSide {
+  justify-content: center;
+  gap: 10px;
+}
+
+.backSide:hover {
+  cursor: auto;
+}
+
+.profile {
+  height: 40%;
+  width: 100%;
+  /* padding: 0 20%; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* border: solid 2px red; */
+  gap: 25px;
+}
+
+.profile img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.profile img:hover {
+  margin-top: 40px;
+  transform: scale(2);
+}
+
+.profile p  {
+  font-size: 40px;
+  font-weight: 200;
+  color: black;
+  font-family: "Protest Revolution", sans-serif;
+
+}
+
+.links  {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  /* border: solid 2px red; */
+}
+
+.links a {
+  font-size: 40px;
+  text-decoration: none;
+  color: black;
+  border-radius: 10px;
+}
+
+.links a:hover {
+  color: orangered;
+}
+
+
