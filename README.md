@@ -29,21 +29,21 @@
 
 ## Active Members:
 
-(i) Janvi Shah (TEAM LEAD) - [Resume Template]() </br>
-(ii) Shivam Bansal - [Chrome Extension]() </br>
-(iii) Hemant Dubey - [Invoice Generator]() </br>
-(iv) Sourasish Sengupta - [Payment Integration]() </br>
-(v) Uddesh Pujari - [Typing Speed Test Game]() </br>
+(i) Janvi Shah (TEAM LEAD) - [Resume Template](https://shivambansal96.github.io/Team_1_Geekathon/Resume_Template_by_Janvi/view/) </br>
+(ii) Shivam Bansal - [Chrome Extension](https://shivambansal96.github.io/Team_1_Geekathon/Chrome_Extension_by_Shivam/) </br>
+(iii) Hemant Dubey - [Invoice Generator](https://shivambansal96.github.io/Team_1_Geekathon/Invoice_Generator_by_Hemant/) </br>
+(iv) Sourasish Sengupta - [Payment Integration](https://shivambansal96.github.io/Team_1_Geekathon/Payment_Integration_by_Sourasish/) </br>
+(v) Uddesh Pujari - [Typing Speed Test Game](https://shivambansal96.github.io/Team_1_Geekathon/Typing_Speed_Apk_Uddesh) </br>
 
 ## Inactive Members:
 
-(i) Mayank Middha - [Trello Clone]() </br>
-(ii) Ankush Rajput - [Code Editor]() </br>
-(iii) Prateek Saini - [MineSweeper Game]() </br>
-(iv) Amit Agarwal - [Flipkart Sort & Filter]() </br>
-(v) Yogesh - [Chrome Extension]()
+(i) Mayank Middha - [Trello Clone](https://shivambansal96.github.io/Team_1_Geekathon/Trello_by_Mayank/) </br>
+(ii) Ankush Rajput - [Code Editor](https://shivambansal96.github.io/Team_1_Geekathon/Code_Editor_by_Ankush/) </br>
+(iii) Prateek Saini - [MineSweeper Game](https://shivambansal96.github.io/Team_1_Geekathon/prateek/) </br>
+(iv) Amit Agarwal - [Flipkart Sort & Filter](https://shivambansal96.github.io/Team_1_Geekathon/Amit/) </br>
+(v) Yogesh - [Chrome Extension](https://shivambansal96.github.io/Team_1_Geekathon/Yogesh/)
 
-## Technologies Used: <img src="./tech/html.png"/>  <img src="./tech/css.png"/>  <img src="./tech/js.png"/> <img src="./tech/fontawesome.png"/>
+## Technologies Used: <img src="./Homepage_By_Shivam/tech/html.pngtech/html.png"/>  <img src="./Homepage_By_Shivam/tech/css.png"/>  <img src="./Homepage_By_Shivam/tech/js.png"/> <img src="./Homepage_By_Shivam/tech/fontawesome.png"/>
 
 
 1.  **HTML:**  
