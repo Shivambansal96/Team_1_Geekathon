@@ -43,7 +43,11 @@
 (iv) Amit Agarwal - [Flipkart Sort & Filter](https://shivambansal96.github.io/Team_1_Geekathon/Amit/) </br>
 (v) Yogesh - [Chrome Extension](https://shivambansal96.github.io/Team_1_Geekathon/Yogesh/)
 
-## Technologies Used: <img src="./Homepage_By_Shivam/tech/html.pngtech/html.png"/>  <img src="./Homepage_By_Shivam/tech/css.png"/>  <img src="./Homepage_By_Shivam/tech/js.png"/> <img src="./Homepage_By_Shivam/tech/fontawesome.png"/>
+## Technologies Used: 
+<img height="50px" width="50px" src="./Homepage_By_Shivam/tech/html.png"/> 
+<img height="50px" width="50px" src="./Homepage_By_Shivam/tech/css.png"/>  
+<img height="50px" width="50px" src="./Homepage_By_Shivam/tech/js.png"/> 
+<img height="50px" width="50px" src="./Homepage_By_Shivam/tech/fontawesome.png"/>
 
 
 1.  **HTML:**  
