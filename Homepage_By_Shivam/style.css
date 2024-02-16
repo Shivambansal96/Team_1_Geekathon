@@ -16,7 +16,8 @@ body {
   /* border-bottom: solid 5px cyan; */
   text-decoration-line: underline;
   text-decoration-color: orange;
-  text-decoration-style: dashed;
+  /* text-decoration-color: white; */
+  /* text-decoration-style: dashed; */
   text-decoration-thickness: 5px;
   margin-top: 5%;
 }
@@ -26,7 +27,16 @@ body {
   font-size: 60px;
   font-weight: 300;
   font-family: "Protest Riot", sans-serif;
+  /* color: #0093E9; */
+  color: red;
+}
+
+#heading:hover {
+  transition-duration: 2s;
   color: #0093E9;
+  /* color: red; */
+
+
 }
 
 img {

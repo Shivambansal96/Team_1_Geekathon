@@ -15,8 +15,7 @@
 
 
 ## Introduction:
-
-
+This Repo contains all the assignments given by **Geekster** to the members of team 1 during Geekathon, as a **Module Clearence Test (MCT)** of **Module 4** which was conducted from 9th Feb to 13th Feb, 2024.
 ---
 
 ## Our Mentor and Guide :-
