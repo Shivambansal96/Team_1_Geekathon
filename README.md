@@ -42,11 +42,7 @@ This Repo contains all the assignments given by **Geekster** to the members of t
 (iv) Amit Agarwal - [Flipkart Sort & Filter](https://shivambansal96.github.io/Team_1_Geekathon/Amit/) </br>
 (v) Yogesh - [Chrome Extension](https://shivambansal96.github.io/Team_1_Geekathon/Yogesh/)
 
-## Technologies Used: 
-<img height="50px" width="50px" src="./Homepage_By_Shivam/tech/html.png"/> 
-<img height="50px" width="50px" src="./Homepage_By_Shivam/tech/css.png"/>  
-<img height="50px" width="50px" src="./Homepage_By_Shivam/tech/js.png"/> 
-<img height="50px" width="50px" src="./Homepage_By_Shivam/tech/fontawesome.png"/>
+## Technologies Used: <img height="50px" width="50px" src="./Homepage_By_Shivam/tech/html.png"/>  <img height="50px" width="80px" src="./Homepage_By_Shivam/tech/css.png"/> <img height="50px" width="80px" src="./Homepage_By_Shivam/tech/js.png"/>  <img height="50px" width="80px" src="./Homepage_By_Shivam/tech/fontawesome.png"/>
 
 
 1.  **HTML:**  
