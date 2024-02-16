@@ -85,3 +85,48 @@ Throughout the development of our Apple Website,  our team encountered various c
 
  - Regular team meetings and communication channels, such as zoom/ google meet, facilitated collaboration and issue tracking.
 ---
+
+## Project Overview
+
+This repository is a curated collection of assignments, each designed to showcase specific skills, techniques, and technologies across various domains. Below is a brief overview of each project contained within this repository:
+
+### Chrome Extension
+
+- **Purpose**: Enhances the browsing experience with features like quick access to favorite sites, ad-blocking, and theme customization.
+- **Key Features**: Customizable dashboard, ad-blocking functionality, dark mode.
+- **Technologies Used**: HTML, CSS, JavaScript.
+
+### Payment Integration
+
+- **Purpose**: Demonstrates the integration of a secure payment system into a web application, facilitating seamless online transactions.
+- **Key Features**: Support for multiple payment methods, real-time transaction updates, and transaction history.
+- **Technologies Used**: PHP, JavaScript, Stripe API (or any other payment service provider API).
+
+### Resume Template
+
+- **Purpose**: Offers a professionally designed resume template that stands out to employers, easily customizable to fit individual career profiles.
+- **Key Features**: Modern design, editable sections for skills, experience, and education, compatible with PDF and Word formats.
+- **Technologies Used**: Microsoft Word, Adobe PDF.
+
+### Code Editor
+
+- **Purpose**: Provides a lightweight, browser-based code editor for quick edits and previews of web development projects, supporting syntax highlighting for multiple programming languages.
+- **Key Feature**:  Real-time code execution, syntax highlighting for HTML, CSS, JavaScript, and other popular languages, theme customization.
+- **Technology Used**: Technologies Used: HTML, CSS, JavaScript, potentially leveraging libraries like CodeMirror or Ace for the editor component.
+
+### Invoice Generator
+ = **Purpose**: Facilitates the creation, customization, and sending of invoices, streamlining the billing process for freelancers and small businesses.
+ - **Key Features**: Customizable invoice templates, automatic calculations of totals, options to send directly to clients via email, and PDF export functionality.
+ - **Technologies Used**: HTML, CSS, JavaScript for frontend; Node.js, Express, and PDF libraries (e.g., pdfkit) for backend functionalities.
+
+### Trello Clone
+ - **Purpose**: Implements a simplified version of the popular project management tool, Trello, enabling users to organize tasks into boards, lists, and cards.
+ - **Key Features**: Drag-and-drop interface for organizing tasks, options to create multiple boards, lists, and cards, ability to assign tasks and set deadlines.
+ - **Technologies Used**: React for the frontend to manage state and provide an interactive UI, Node.js and Express for backend services, and MongoDB or another database for data storage.
+   
+### Typing Speed Test Game
+ - **Purpose**: Offers a fun and interactive way to improve typing speed and accuracy by challenging users to type out given passages within a time limit.
+ - **Key Features**: Real-time typing speed and accuracy tracking, variety of difficulty levels and text passages, leaderboard to compare scores with others.
+ - **Technologies Used**: HTML, CSS, JavaScript for the game logic and UI, with the option to use a backend like Node.js to store high scores and manage leaderboards.
+
+Each project in this repository serves as a practical example of applying specific technologies to solve real-world problems or enhance user experience in various ways. Whether you're looking to improve your web development skills, understand payment integration, or create a compelling resume, these assignments offer valuable insights and tools to achieve your goals.
